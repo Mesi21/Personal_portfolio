@@ -2,4 +2,90 @@
 * {
   margin: 0; 
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131B1D;
+}
+
+hr {
+  color: #8F6F49;
+}
+
+nav {
+  padding: 20px 50px;
+  min-height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  color: #8F6F49;
+}
+
+nav h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+nav ul {
+  width: 60%;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: #8F6F49;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: #abb612;
+}
+
+#basic-info {
+  background-image: url('./Assets/main_background.jpg');
+  filter: blur(2px);
+  -webkit-filter: blur(2px);  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 800px;
+}
+
+#basic-text{
+  background-color: rgba(0,0,0, 0.7);
+  padding: 100px;
+  color: white;
+  z-index: 10;
+  border: 5px solid #cccccc;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-wrap: wrap;
+}
+
+
+#basic-text img {
+  margin: 50px auto;
+  height: 200px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #8F6F49;
+  margin: 20px;
+  max-width: 320px;
+}
+
+.card-body h5 {
+  font-family: "Protest Guerrilla", sans-serif;
 }
